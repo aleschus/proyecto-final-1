@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 a{
+    color:cyan;
+    
+}
+.encabezado{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 40px;
+    justify-content: center;
+    padding-right: 300px;
+    
+}
+.parrafogrande{
+    background-color: darkgrey;
+}
+.parrafochico{
+    background-color: cornflowerblue;
+}
+.flex{
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+    margin-right: 301px;   
+    }
+
+nav ul  :hover{
+    background-color: darkorange;
+}
+        
+
+ul a{
+    text-decoration: none;
+    color: navy;
+}
+ul li{
+    list-style: none;
+}
+
+.tam-img{
+    width: 100px;
+    height:100px;
+    justify-content: end;    
+}
+footer i{
+    font-size: 2rem;
+}
+
+@media(max-width:768px){
+    .encabezado{
+        background-color: red;
+    }
+     
+}
+ 
+
