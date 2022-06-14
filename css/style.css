@@ -22,7 +22,8 @@ h1 a{
     background-color: darkgrey;
 }
 .parrafochico{
-    background-color: cornflowerblue;
+   background-image: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(0,212,255,1) 100%);
+   color: white;
 }
 .flex{
     display:flex;
@@ -51,6 +52,12 @@ ul li{
 }
 footer i{
     font-size: 2rem;
+}
+.boton{
+    background-color: red;
+}
+.boton :hover{
+    background-color: black;
 }
 
 @media(max-width:768px){
